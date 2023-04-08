@@ -1,0 +1,131 @@
+
+        
+        /*Scroll Design*/
+      ::-webkit-scrollbar {
+          z-index: 100;
+            width: 5px;
+      } /* this targets the default scrollbar (compulsory) */
+      ::-webkit-scrollbar-track {
+            background-color: #452732 ;
+      } /* the new scrollbar will have a flat appearance with the set background color */
+      
+      ::-webkit-scrollbar-thumb {
+            background-color: rgba(0, 0, 0, 0.2);
+      } /* this will style the thumb, ignoring the track */
+      
+      ::-webkit-scrollbar-button {
+            background-color: #000;
+      } /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+      
+      ::-webkit-scrollbar-corner {
+            background-color: #000;
+      } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+      
+      #body{
+        background-image: url("./assets/images/back2.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+      }
+      /* Style CSS */
+      *{
+         margin: 0px;
+          padding: 0px;
+      }
+      .rounded-circle{
+          border-radius: 50%;
+          border: 3px solid #d3325f;
+          
+          box-shadow:0px 4px 3px #ff66a3;
+      }
+      
+      
+      
+      #navbar {
+       
+          height: 60px;
+          width: 100%;
+          position: fixed;
+          z-index: 1;
+          background-color: #c9c1ac;
+          border-radius: 0px;
+          padding: 0px 100px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          box-sizing: border-box;
+      }
+        .btnStyle:hover{
+          background-color: #ff66a3;
+          box-shadow: 0px 3px 6px rgba(0, 0, 0, .16), 0px 6px 10px rgba(0, 0, 0, .23);
+          transform: scale(1.05, 1.05);
+      }
+     
+      
+      
+    
+      
+    #body-content{
+          position: relative;
+         
+          right: 0px;
+          width: 80%;
+          margin: 0px auto;
+          display: flex;
+          justify-content: space-around;
+      
+          transition: all .2s ease-in-out;
+
+      }
+
+      #submit {
+    background-color: #d3325f;
+    padding: 0.5em;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 3px solid #d3325f;
+}
+      
+      /* orders */
+      
+      .recipe-menu{
+          
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+         color:white;
+      }
+      
+      .recipe{
+          
+          background-size: 100% 100%;
+          padding: 10px;
+          width: 300px;
+          position: relative;
+          
+      }
+      
+      .recipe img{
+          width: 100%;
+          height: 60%;
+          border: 3px solid whitesmoke;
+          box-shadow: 0px 4px 3px;
+          border-radius: .25rem;
+      }
+      
+      .name{
+          font-size: 23px;
+          text-align: center;
+      }
+      
+      .price {
+          font-weight: bold;
+          font-size: 22px;
+          padding: 0px 15px;
+      }
+      
+    
+      
