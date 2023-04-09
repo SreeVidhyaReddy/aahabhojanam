@@ -3,7 +3,7 @@ import { Route, Router, Routes } from 'react-router-dom';
 
 import './App.css';
 import './index.css';
-// import './style.css';
+// import './login.css';
 // import {
 //   BrowserRouter as Router,
 //   Switch,
@@ -18,6 +18,8 @@ import Home from "./components/Home.js";
 import MenuList from "./components/MenuList.js";
 import Login from './components/Login';
 import MenuItems from './components/MenuItems';
+import Order from './components/Order';
+import Table from './components/Table';
 
 
 function App() {
@@ -26,9 +28,13 @@ function App() {
      <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
-          <Route path='/menuItems' element={<MenuItems/>}/>          
+          <Route path='/mainindex' element={<MainIndex/>}/>
+          <Route path='/order' element={<Order/>}/>
+          <Route path='/table' element={<Table/>}/>
+          <Route path='/menulist' element={<MenuList/>}/>          
         </Routes>
-   
+  
+   {/* <Table/> */}
    </React.Fragment>
   );
 }

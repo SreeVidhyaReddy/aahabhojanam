@@ -26,15 +26,35 @@ Price: "18"
   
 </nav>
           
-    <MenuItems name="Biryani" price="20" image={logo}  />
-         <MenuItems name="PannerKabab" price="18" image={logo} />
-    <MenuItems name="Macaroon" price="8" image={logo}  />
- <MenuItems name="Biryani" price="20" image={logo}  />
-         <MenuItems name="PannerKabab" price="18" image={logo} />
-    <MenuItems name="Macaroon" price="8" image={logo}  />
- <MenuItems name="Biryani" price="20" image={logo}  />
-         <MenuItems name="PannerKabab" price="18" image={logo} />
-    <MenuItems name="Macaroon" price="8" image={logo}  />
+          <div className='container'>
+            <div className='row'>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+              <div className='col-3'>
+              <MenuItems name="Biryani" price="20" image={logo}  />
+              </div>
+            </div>
+          </div>
+        
 
 
           </React.Fragment>

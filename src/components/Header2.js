@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 class  Header2 extends React.Component{
@@ -30,8 +31,9 @@ class  Header2 extends React.Component{
                         <h1 className="display-1 text-capitalize w-50 mx-auto">
                             <small>Aahaa</small><strong className="primary-color">Bhojanam</strong>
                         </h1>
-                        <a href="order.html" id="main-btn" className="btn main-btn sushi-btn my-4 text-capitalize">order online</a>
-                        <a href="table.html" id="main-btn" className="btn main-btn sushi-btn my-4 text-capitalize">book tables</a>                        
+                        <Link to="/Order" id="main-btn"  className="btn main-btn sushi-btn my-4 text-capitalize">order now</Link>
+                        <Link to="/Table" id="main-btn"  className="btn main-btn sushi-btn my-4 text-capitalize">book tables</Link>
+
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 import Login from "../components/Login.js";
 import MainIndex from "../components/MainIndex.js";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 class  Header extends React.Component{
 	render(){
@@ -33,8 +33,7 @@ class  Header extends React.Component{
                         <h1 className="display-1 text-capitalize w-50 mx-auto">
                             <small>Aahaa</small><strong className="primary-color">Bhojanam</strong>
                         </h1>
-                        <a href={<MainIndex/>}  id="main-btn"  className="btn main-btn sushi-btn my-4 text-capitalize">Login</a>
-                        
+                        <Link to="/Login" id="main-btn"  className="btn main-btn sushi-btn my-4 text-capitalize">Login</Link>
                     </div>
                 </div>
             </div>

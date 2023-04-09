@@ -1,11 +1,14 @@
 import React from 'react';
 import logo from "../assets/images/logo.jpg" ;
+import { Link } from 'react-router-dom'
+
+
 
 class Login extends React.Component{
 	render(){
 		return(
             <React.Fragment>
-           <div className="container" id="container">
+           <div className="container-logo" id="container-logo">
             <div className="logo">
              
                 <img src={ logo} alt="logo"/>
@@ -27,7 +30,8 @@ class Login extends React.Component{
                                 <span id="login-error-email"></span>
                                 <input type="password" placeholder="Password" id="login-password"/>
                                 <span id="login-error-password"></span>
-                                <button id="sign-in" onclick="check()">Sign in</button>
+                                <Link to="/MainIndex" id="register" >Login</Link>
+
                             </form>
                         </div>
                         <div className="overlay-container">
