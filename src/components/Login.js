@@ -8,7 +8,7 @@ class Login extends React.Component{
 	render(){
         
 		return(
-            <React.Fragment>
+            <React.Fragment className="login">
            <div className="container-logo" id="container-logo">
             <div className="logo">
              

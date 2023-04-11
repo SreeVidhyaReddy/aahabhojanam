@@ -25,7 +25,7 @@ import Table from './components/Table';
 function App() {
   return (
    <React.Fragment>
-     {/* <Routes>
+     <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/mainindex' element={<MainIndex/>}/>
@@ -33,8 +33,8 @@ function App() {
           <Route path='/table' element={<Table/>}/>
           <Route path='/menulist' element={<MenuList/>}/>          
         </Routes>
-   */}
-   <Login/>
+  
+   {/* <Login/> */}
    </React.Fragment>
   );
 }
